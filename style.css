@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Styling and setting up the first container */
+
+.container-one{
+    background-color: #1F2937;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+}
+
+.subcontainer-left {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+/* Styling and setting up second container */
+
+.container-two{
+    background-color: white;
+    height: 200px;
+}
+
+/* Styling and setting up third container */
+
+.container-three{
+    background-color: #e5e7eb;
+    height: 200px;
+}
+
+.container-four{
+    background-color: white;
+    height: 200px;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1F2937;
+    margin-top: auto;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
